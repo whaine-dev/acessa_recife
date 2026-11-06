@@ -1,3 +1,7 @@
+===============================
+ALUNOS: KEVEN WHAINE, JOÃO ALVARO, RAFAEL CABRAL, VINICIOS BORGES, DOUGRAS DA SILVA
+===============================
+
 Mini-mundo: Acessa Recife
 
 O Acessa Recife é um sistema web de ônibus turístico voltado a pessoas com mobilidade reduzida, como cadeirantes. O ônibus leva o passageiro direto de um terminal até um ponto turístico da cidade e o traz de volta, sem que ele precise trocar de ônibus. Cada viagem é uma só, de ida e volta, e é acompanhada por um guia turístico.
