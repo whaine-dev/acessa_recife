@@ -1,0 +1,40 @@
+Mini-mundo: Acessa Recife
+
+O Acessa Recife é um sistema web de ônibus turístico voltado a pessoas com mobilidade reduzida, como cadeirantes. O ônibus leva o passageiro direto de um terminal até um ponto turístico da cidade e o traz de volta, sem que ele precise trocar de ônibus. Cada viagem é uma só, de ida e volta, e é acompanhada por um guia turístico.
+
+Cliente e cadastro
+
+Para usar o sistema, a pessoa faz um cadastro e passa a ter um login, com e-mail e senha. Cada cliente tem exatamente um login, e cada login pertence a exatamente um cliente.
+
+O cliente é identificado por um código e guarda nome, tipo de cliente e tipo de acessibilidade. Ele deve ser pessoa física ou pessoa jurídica, nunca os dois ao mesmo tempo. A pessoa física informa CPF, telefone, data de nascimento e idade. A pessoa jurídica informa CNPJ, razão social, telefone e data de fundação.
+
+Reserva e viagem
+
+O cliente pode fazer nenhuma, uma ou várias reservas. Quem apenas se cadastrou e ainda não reservou continua com zero reservas, e quem quiser voltar a passear faz uma nova reserva. A reserva guarda o assento, a data e hora e a forma de pagamento. Cada reserva pertence a um único cliente e é feita para uma única viagem.
+
+Uma viagem pode receber nenhuma ou várias reservas, uma para cada assento ocupado.
+
+Dados de cada viagem
+
+Cada viagem tem data e hora e vai para um único local. Ela conta com:
+
+um motorista, com nome, CPF e CNH;
+um ônibus, com placa e modelo;
+um guia turístico, com nome, CPF, número de cadastro e validade da credencial;
+um terminal, que é o ponto de saída e de retorno.
+
+Esses quatro podem ser usados em nenhuma ou várias viagens ao longo do tempo, mas cada viagem tem apenas um de cada.
+
+Local, endereço e informações de acessibilidade
+
+O local é o ponto turístico, como o Marco Zero ou o Instituto Ricardo Brennand. Ele tem nome, descrição e horário de funcionamento. Um local pode receber nenhuma ou várias viagens.
+
+Cada local tem exatamente um endereço (logradouro, número, bairro, cidade, estado, CEP, latitude e longitude), e cada endereço pertence a um único local.
+
+Cada local também tem exatamente uma informação de acessibilidade, que diz o nível de acessibilidade e se há rampas e banheiro adaptado. Cada informação descreve um único local.
+
+Avaliação e mídia
+
+O cliente não é obrigado a avaliar nada. Ele pode só acessar o site e sair, e isso não impede o uso do sistema. Quem quiser pode fazer nenhuma, uma ou várias avaliações. Cada avaliação tem um comentário, é escrita por um único cliente e é sobre um único local. Um local pode ter nenhuma ou várias avaliações.
+
+A avaliação pode ser só texto ou ter mídias (fotos ou vídeos). Cada mídia guarda tipo de arquivo, nome e conteúdo, e pertence a uma única avaliação. Uma avaliação pode ter nenhuma ou várias mídias.
