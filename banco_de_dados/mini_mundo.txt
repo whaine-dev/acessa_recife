@@ -37,4 +37,4 @@ Avaliação e mídia
 
 O cliente não é obrigado a avaliar nada. Ele pode só acessar o site e sair, e isso não impede o uso do sistema. Quem quiser pode fazer nenhuma, uma ou várias avaliações. Cada avaliação tem um comentário, é escrita por um único cliente e é sobre um único local. Um local pode ter nenhuma ou várias avaliações.
 
-A avaliação pode ser só texto ou ter mídias (fotos ou vídeos). Cada mídia guarda tipo de arquivo, nome e conteúdo, e pertence a uma única avaliação. Uma avaliação pode ter nenhuma ou várias mídias.
+A avaliação pode ser só texto ou ter mídias (fotos ou vídeos). Cada mídia guarda tipo de arquivo, nome e conteúdo, e pertence a uma única avaliação. Uma avaliação pode ter nenhuma ou várias mídias..
