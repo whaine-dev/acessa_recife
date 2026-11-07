@@ -285,4 +285,10 @@ INNER JOIN reserva r
 
   INNER JOIN midia m 
     ON a.id_avaliacao = m.id_avaliacao;
- 
+    
+ SELECT * FROM local l
+    INNER JOIN endereco e 
+      ON l.id_local = e.id_local
+
+    INNER JOIN informacao i 
+      ON i.id_informacao = l.id_informacao;
