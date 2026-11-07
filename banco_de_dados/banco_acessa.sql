@@ -271,5 +271,10 @@ INSERT INTO reserva (assento, data_hora, pagamento, id_cliente, id_viagem) VALUE
 (20, '2026-11-12 08:00:00', 'confirmado', 7, 6),
 (15, '2026-11-15 09:30:00', 'confirmado', 8, 7);
  
-SELECT * FROM local;
+--colocando em prática antes que o sr veja, mas pode olhar os commits kkk
+
+SELECT c.nome, r.pagamento 
+FROM cliente c
+INNER JOIN reserva r
+  ON c.id_cliente = r.id_cliente;
  
