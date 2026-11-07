@@ -277,4 +277,12 @@ SELECT c.nome, r.pagamento
 FROM cliente c
 INNER JOIN reserva r
   ON c.id_cliente = r.id_cliente;
+
+  SELECT * FROM cliente c  
+
+  INNER JOIN avaliacao a
+    ON c.id_cliente = a.id_cliente
+
+  INNER JOIN midia m 
+    ON a.id_avaliacao = m.id_avaliacao;
  
